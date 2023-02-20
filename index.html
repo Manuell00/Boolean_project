@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio - Scooter Lim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- intrduco un div che mi faccia da contenitore centrale -->
+    <div id="container">
+
+        <!-- Utilizzo i tag semantici per evitare di utilizzare i commenti -->
+
+        <header>
+            <img src="img/logo.png" alt="">
+            <h1>Taking Booleaners from A to B</h1>
+        </header>
+
+        <nav>
+            <input type="submit" name="reservation" value="Prenota">
+            <input type="submit" name="endsBooking" value="Termina Prenotazione">
+            <input type="submit" name="turnOnLights" value="Accendi Luci">
+        </nav>
+
+        <!-- Definisco nel main le tre possibili scelte per l'utente -->
+        <main>
+            <div class="row">
+                <input type="checkbox">
+                <span class="owner">Monopattino Gino22</span>
+                <div class="way">
+                    <span>&#8614;</span>
+                    <span>Via Guadalametri - a 220 metri da te</span>
+                    <div class="way">Stato di carica :</div>
+                </div>
+                
+                <!-- Creo un div contenente la barra con id fullbar -->
+                <div id="midbar"></div>
+            </div>
+
+            <div class="row">
+                <input type="checkbox">
+                <span class="owner">Monopattino Mike24</span>
+                <div class="way">
+                    <span>&#8614;</span>
+                    <span>Via Ricciardoni - a 420 metri da te</span>
+                    <div class="way">Stato di carica :</div>
+                </div>
+
+                <!-- Creo un div contenente la barra con id fullbar -->
+                <div id="fullbar"></div>
+            </div>
+
+            <div class="row">
+                <input type="checkbox">
+                <span class="owner">Monopattino Fede154</span>
+                <div class="way">
+                    <span>&#8614;</span>
+                    <span>Via Mentarini - a 490 metri da te</span>
+                    <div class="way">Stato di carica :</div>
+                </div>
+                
+                <!-- Creo un div contenente la barra con id fullbar -->
+                <div id="lowbar"></div>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
